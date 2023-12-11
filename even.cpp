@@ -8,12 +8,9 @@ int main() {
     cout << "Enter the number ";
     cin >>num;
 
-//    if(num%2==0)
-//         cout << num << " is even number";
-//    else
-//         cout << num <<" is odd number";
-
-    num%2==0 ?  cout << num << " is even number" : cout << num <<" is odd number";
-    
+    if(num%2==0)
+        cout << num << " is even number";
+    else
+        cout << num <<" is odd number";
     return 0;
 }
